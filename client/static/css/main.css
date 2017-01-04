@@ -15,13 +15,20 @@
   height: 170px;
   border-radius: 10%;
   display: block;
+  margin: auto;
 
 }
 .main_back a{
   color: white;
 }
+.navbar-header{
+  margin-bottom: 25px;
+}
+.hamburger{
+  width: 40px;
+}
 .navbar{
-  margin-left: 27%
+  margin-left: 26%
 }
 .nav li{
   padding-left: 20px;
@@ -29,6 +36,10 @@
   margin-right: 10px;
   border: 2px solid white;
   border-radius: 15%;
+}
+.navbar-toggle{
+  float: left;
+  margin-left: 10px;
 }
 .non_selected{
   background-color: #373737;
@@ -63,14 +74,50 @@
 }
 .project img{
   width: 500px;
+  margin: auto;
 }
 .alg{
   background-color: #373737;
   opacity: 0.9;
+  padding-top: 10px;
+}
+.alg h3{
+  margin-top: 0;
+}
+.alg ul{
+  text-align: left;
+  padding-bottom: 10px;
+}
+.alg li{
+  list-style-type: none;
+}
+@media all and (max-width: 959px){
+  .navbar{
+    margin-left: 13%;
+  }
+  .project img{
+    width: 500px;
+    margin-left: 15%
+  }
+  .alg_img{
+    width: 700px;
+    overflow-x: auto;
+  }
 }
 @media all and (max-width: 480px){ /* SMALL AND EXTRA SMALL */
+  .navbar{
+    margin-left: 0%;
+    float: left;
+  }
+  .navbar li{
+    margin-top: 10px;
+  }
   .project img{
     width: 380px;
     margin: 10px auto;
+  }
+  .alg_img{
+    width: 380px;
+    overflow-x: auto;
   }
 }
