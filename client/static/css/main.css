@@ -1,5 +1,6 @@
 .container{
   margin-top: 40px;
+  padding-bottom: 30px;
 }
 .main_back{
   background-image: url("../images/dallas.jpg");
@@ -36,42 +37,18 @@
 .selected{
   background-color: darkgrey;
 }
-.contact li{
-  text-align: left;
+.about{
+  background-color: #373737;
+  opacity: 0.9;
+}
+.about li{
+  text-align: center;
   list-style-type: none;
+  margin-top: 20px;
 }
-.contact h4{
-  display: inline;
+.about p{
+  text-align: left
 }
-.phone{
-  background-color: white;
-  border-radius: 10%;
-  padding: 2px;
-  height: 60px;
-  width: 60px;
-  margin: 10px 10px 10px 0;
-}
-.mail{
-  background-color: white;
-  border-radius: 10%;
-  padding: 2px;
-  height: 60px;
-  width: 60px;
-  margin: 10px 10px 10px -0;
-}
-.link{
-  background-color: white;
-  border-radius: 12%;
-  padding: 0px;
-  height: 60px;
-  width: 60px;
-  margin: 10px 10px 10px 0;
-}
-.git{
-  background-color: white;
-  border-radius: 10%;
-  padding: 2px;
-  height: 60px;
-  width: 60px;
-  margin: 10px 10px 10px -0;
+.about span{
+  color: darkgrey;
 }
