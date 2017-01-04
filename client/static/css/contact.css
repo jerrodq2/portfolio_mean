@@ -1,0 +1,40 @@
+
+.contact li{
+  text-align: left;
+  list-style-type: none;
+}
+.contact h4{
+  display: inline;
+}
+.phone{
+  background-color: white;
+  border-radius: 10%;
+  padding: 2px;
+  height: 60px;
+  width: 60px;
+  margin: 10px 10px 10px 0;
+}
+.mail{
+  background-color: white;
+  border-radius: 10%;
+  padding: 2px;
+  height: 60px;
+  width: 60px;
+  margin: 10px 10px 10px -0;
+}
+.link{
+  background-color: white;
+  border-radius: 12%;
+  padding: 0px;
+  height: 60px;
+  width: 60px;
+  margin: 10px 10px 10px 0;
+}
+.git{
+  background-color: white;
+  border-radius: 10%;
+  padding: 2px;
+  height: 60px;
+  width: 60px;
+  margin: 10px 10px 10px -0;
+}
