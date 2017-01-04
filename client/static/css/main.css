@@ -1,11 +1,35 @@
+.container{
+  margin-top: 40px;
+}
 .main_back{
   background-image: url("../images/dallas.jpg");
   background-size: cover;
   color: white;
+  text-align: center;
   background-repeat: no-repeat;
+  align-items: center;
 }
 .main_back img{
   width: 300px;
   height: 170px;
   border-radius: 10%;
+  display: block;
+
+}
+.main_back a{
+  color: white;
+}
+.nav li{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 15%;
+}
+.non_selected{
+  background-color: #373737;
+  opacity: 0.8;
+}
+.selected{
+  background-color: darkgrey;
 }
