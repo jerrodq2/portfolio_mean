@@ -52,3 +52,25 @@
 .about span{
   color: darkgrey;
 }
+
+.project{
+  background-color: #373737;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.proj{
+  margin-bottom: 20px;
+}
+.project img{
+  width: 500px;
+}
+.alg{
+  background-color: #373737;
+  opacity: 0.9;
+}
+@media all and (max-width: 480px){ /* SMALL AND EXTRA SMALL */
+  .project img{
+    width: 380px;
+    margin: 10px auto;
+  }
+}
