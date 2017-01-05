@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   align-items: center;
 }
+.shadow{
+  text-shadow: 4px 4px black;
+}
 .profile{
   width: 300px;
   height: 170px;
@@ -91,16 +94,26 @@
 .alg li{
   list-style-type: none;
 }
-@media all and (max-width: 959px){
+.alg_img{
+  width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+@media all and (max-width: 959px){ /* TABLET SIZED SCREENS */
   .navbar{
     margin-left: 13%;
   }
+  .shadow{
+    text-shadow: 2px 2px black;
+  }
   .project img{
-    width: 500px;
-    margin-left: 15%
+    width: 80%;
+    margin: auto;
+    float: none;
   }
   .alg_img{
-    width: 700px;
+    width: 80%;
+    margin: auto;
     overflow-x: auto;
   }
 }
@@ -112,12 +125,16 @@
   .navbar li{
     margin-top: 10px;
   }
+  .shadow{
+    text-shadow: 2px 2px black;
+  }
   .project img{
     width: 380px;
     margin: 10px auto;
   }
   .alg_img{
-    width: 380px;
+    width: 100%;
+    margin: auto;
     overflow-x: auto;
   }
 }
