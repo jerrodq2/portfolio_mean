@@ -3,15 +3,39 @@
   padding-bottom: 30px;
 }
 .main_back{
-  background-image: url("../images/dallas.jpg");
+  background-image: url("../images/dallas-min.jpg");
   background-size: cover;
   color: white;
   text-align: center;
   background-repeat: no-repeat;
   align-items: center;
 }
+
+.algorithm_back {
+    height: 100%;
+}
+
+.algorithm_back {
+    background-image: url("../images/algo2-min.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+
+
+
+
+
+
 .shadow{
   text-shadow: 4px 4px black;
+  font-weight: bold;
 }
 .profile{
   width: 300px;
@@ -24,6 +48,11 @@
 .main_back a{
   color: white;
 }
+
+.algorithm_back a{
+  color: white;
+}
+
 .navbar-header{
   margin-bottom: 25px;
 }
@@ -95,6 +124,7 @@
   list-style-type: none;
 }
 .alg_img{
+  height: 100%;
   width: 100%;
   margin: auto;
   overflow-x: auto;
