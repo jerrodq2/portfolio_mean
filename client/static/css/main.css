@@ -135,12 +135,16 @@ a{
 .alg li{
   list-style-type: none;
 }
-.alg_img{
-  height: 100%;
+.algorithm_img{
+  height: 600px;
   width: 100%;
   margin: auto;
   overflow-x: auto;
 }
+
+
+
+/*RESPONSIVE FOCUSED CSS*/
 @media all and (max-width: 959px){ /* TABLET SIZED SCREENS */
   .navbar{
     margin-left: 13%;
