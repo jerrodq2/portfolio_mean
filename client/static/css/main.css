@@ -1,33 +1,48 @@
 .container{
   margin-top: 40px;
   padding-bottom: 30px;
+  color: white;
+  text-align: center;
 }
 .main_back{
   background-image: url("../images/dallas-min.jpg");
   background-size: cover;
-  color: white;
-  text-align: center;
   background-repeat: no-repeat;
   align-items: center;
 }
 
 .algorithm_back {
-    height: 100%;
+  height: 100%;
+  background-image: url("../images/algo3-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
-.algorithm_back {
-    background-image: url("../images/algo2-min.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    background-repeat: no-repeat;
-    align-items: center;
+.project_back {
+  height: 100%;
+  background-image: url("../images/project_back2-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
-
+.contact_back {
+  height: 100%;
+  background-image: url("../images/contact_back.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
 
 
 
@@ -45,11 +60,8 @@
   margin: auto;
 
 }
-.main_back a{
-  color: white;
-}
 
-.algorithm_back a{
+a{
   color: white;
 }
 
