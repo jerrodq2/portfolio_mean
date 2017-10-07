@@ -21,19 +21,3 @@ app.listen(port, function(){
 
 
 // *******************End*******************
-
-
-// SOCKET STUFF BELOW
-
-// var io = require('socket.io').listen(server)
-// io.sockets.on('connection', function (socket) {
-//   socket.on('button_clicked', function (data) {
-//     //  EMIT:
-//     socket.emit('my_emit_event');
-//     //  BROADCAST:
-//     socket.broadcast.emit("my_broadcast_event");
-//     //  FULL BROADCAST:
-//     io.emit("my_full_broadcast_event");
-// })
-//
-// })
