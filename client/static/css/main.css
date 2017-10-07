@@ -5,7 +5,7 @@
   text-align: center;
 }
 .main_back{
-  background-image: url("../images/dallas-min.jpg");
+  background-image: url("../images/main_back-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
@@ -35,7 +35,18 @@
 
 .contact_back {
   height: 100%;
-  background-image: url("../images/contact_back.jpg");
+  background-image: url("../images/contact_back-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.default_back {
+  height: 100%;
+  background-image: url("../images/default_back-min.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,6 +130,12 @@ a{
 .project img{
   width: 500px;
   margin: auto;
+}
+.project_title{
+  margin: 0;
+}
+.project_date{
+  margin-bottom: 0;
 }
 .alg{
   background-color: #373737;

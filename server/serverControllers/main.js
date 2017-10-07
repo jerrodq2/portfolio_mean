@@ -12,6 +12,9 @@ module.exports = {
   projects: function(req, res){
     res.render('projects')
   },
+  other: function(req, res){
+    res.render('default')
+  },
 
 
 }
