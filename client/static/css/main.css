@@ -118,6 +118,9 @@ a{
 .about span{
   color: darkgrey;
 }
+.about small{
+  float: right;
+}
 
 .project{
   background-color: #373737;
