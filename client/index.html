@@ -18,6 +18,7 @@
     <!-- End Bower Components -->
 
     <link rel="stylesheet" href="./static/css/main.css">
+    <script type="text/javascript" src="static/js/navbar_jquery.min.js"></script>
   </head>
   <!-- END HEAD -->
 
@@ -25,61 +26,66 @@
 
   <!-- BEGINNING BODY -->
   <body class="container main_back">
-    <div class="row">
-      <div class="col-xs-12">
-        <img class="profile" src="static/images/personal-min.jpg" alt="profile_pic">
-        <h1 class="shadow">Jerrod Quintana</h1>
-        <hr>
-        <h3 class="shadow">Full Stack Developer in the Dallas Fort Worth Area</h3>
+    <header>
+      <div class="row">
+        <div class="col-xs-12">
+          <img class="profile" src="static/images/personal-min.jpg" alt="profile_pic">
+          <h1 class="shadow">Jerrod Quintana</h1>
+          <hr>
+          <h3 class="shadow">Full Stack Developer in the Dallas Fort Worth Area</h3>
+        </div>
       </div>
-    </div>
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="icon-bar"><img class="hamburger" src="./static/images/hamburger-min.png" alt="navbar-icon"></span>
-      </button>
-    </div>
-    <nav class="navbar ">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="selected"><h4><a href="/">Home</a></h4></li>
-            <li class="non_selected"><h4><a href="/algorithms">Algorithms</a></h4></li>
-            <li class="non_selected"><h4><a href="/projects">Projects</a></h4></li>
-            <li class="non_selected"><h4><a href="/contact">Contact</a></h4></li>
+
+      <nav class="navbar container-fluid custom-navbar">
+            <ul class="nav">
+              <li class="selected"><h4><a href="/">Home</a></h4></li>
+              <li class="non_selected"><h4><a href="/algorithms">Algorithms</a></h4></li>
+              <li class="non_selected"><h4><a href="/projects">Projects</a></h4></li>
+              <li class="non_selected"><h4><a href="/contact">Contact</a></h4></li>
+            </ul>
+      </nav>
+      <div class="navbar-header">
+        <button type="button" class="custom-hamburger">
+          <span class="icon-bar"><img class="hamburger" src="./static/images/hamburger-min.png" alt="navbar-icon"></span>
+        </button>
+      </div> <!-- END NAVBAR -->
+      <div class="hamburger-navbar">
+        <ul class="second-navbar">
+          <li class="current"><h4><a href="/">Home</a></h4></li>
+          <li><h4><a href="/algorithms">Algorithms</a></h4></li>
+          <li><h4><a href="/projects">Projects</a></h4></li>
+          <li><h4><a href="/contact">Contact</a></h4></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="row">
+      <div class="col-xs-12">
+        <div class="about">
+          <h3>About Me</h3>
+
+          <p>My name is Jerrod Quintana, I am a full stack developer in the Dallas area who loves to code and pretty much all things geeky/nerdy. Last year I decided I wanted something different and more challenging out of my career, so with my love of gaming, computers, and technology, I decided to do so by attending an immersive coding bootcamp called Coding Dojo, in the fall of 2016. During my time there, I became proficient in three full stacks (full MEAN, Ruby on Rails, and Python) and acquired everything I needed to be a developer. </p>
+
+          <p>I'm a fully capable front end and back end developer, with my speciality being the back end. I have a very analytical mindset and strong problem solving/error debugging skills, so while I enjoy front end development, I've always excelled more at the back end. I'm an extremely fast learner that has always excelled at whatever I've done, graduting at the top of my classes in high school, Texas Tech, and at Coding Dojo. I fell in love with coding because of all the possibilites you can do and build with it, taking an idea and making something incredible out of it. This career field is so massive that there's always more to learn and more you can do to grow as a developer.</p>
+
+          <p>Like a stereotypical developer, I'm a nerd in every sense of the word. My biggest passion and favorite hobby is playing and collecting video games, both current and retro. I also have a passion for practicing MMA, specifically Brazilian Jiu Jitsu. Few things offer the constant challenge, both mentally and physically that Jiu Jitsu does. Other hobbies of mine include anime, movies, comic books, regular books, hunting, shooting, and running. I also tend to love things a little out of the ordinary such as escape the room games, laser tag, nerf gun wars, etc. My career as a developer compliments my passions and interests, allowing me to better understand the accomplishments of the programmers that have come before me.</p>
+
+          <p>I am currently seeking a fulfilling career where I can continue to learn and grow as a developer, while always striving to improve and grow on my own. To contact me or see my related sites (Github, LinkedIn), please refer to my information in the contact tab, or you can see some of my past projects on the projects tab.</p>
+
+          <p><small>*Last updated 10/17/17</small></p>
+
+          <h3>Technologies Known</h3>
+          <p>I pride myself on being a fast learner, with the ability to learn a new language, technology, or framework as need be. I'm currently learning more technologies and frameworks, as of now these are some of the ones I have experience in.</p>
+          <ul>
+            <li><h5><span><b>Languages:</b></span> JavaScript, Python, Ruby</h5></li>
+            <li><h5><span><b>Front End:</b></span> HTML5, CSS3, AngularJS, JQuery, and Boostrap</h5></li>
+            <li><h5><span><b>Back End:</b></span> Express.JS, Node.JS, Flask, Pylot, Django, and Ruby on Rails</h5></li>
+            <li><h5><span><b>Database:</b></span> MySQL, SQL, MongoDB, and Postgres</h5></li>
+            <li><h5><span><b>Other Skills:</b></span> Algorithms, GitHub, Google Sheets and Formulas, Microsoft SQL Server Management Studio, Filezilla, and Deployment</h5></li>
           </ul>
         </div>
       </div>
-    </nav><!-- END NAVBAR -->
-
-
-
-    <div class="row">
-      <div class="col-xs-12 about">
-      <h3>About Me</h3>
-
-      <p>My name is Jerrod Quintana, I am a full stack developer in the Dallas area who loves to code and pretty much all things geeky/nerdy. Last year I decided I wanted something different and more challenging out of my career, so with my love of gaming, computers, and technology, I decided to do so by attending an immersive coding bootcamp called Coding Dojo, in the fall of 2016. During my time there, I became proficient in three full stacks (full MEAN, Ruby on Rails, and Python) and acquired everything I needed to be a developer. </p>
-
-      <p>I'm a fully capable front end and back end developer, with my speciality being the back end. I have a very analytical mindset and strong problem solving/error debugging skills, so while I enjoy front end development, I've always excelled more at the back end. I'm an extremely fast learner that has always excelled at whatever I've done, graduting at the top of my classes in high school, Texas Tech, and at Coding Dojo. I fell in love with coding because of all the possibilites you can do and build with it, taking an idea and making something incredible out of it. This career field is so massive that there's always more to learn and more you can do to grow as a developer.</p>
-
-      <p>Like a stereotypical developer, I'm a nerd in every sense of the word. My biggest passion and favorite hobby is playing and collecting video games, both current and retro. I also have a passion for practicing MMA, specifically Brazilian Jiu Jitsu. Few things offer the constant challenge, both mentally and physically that Jiu Jitsu does. Other hobbies of mine include anime, movies, comic books, regular books, hunting, shooting, and running. I also tend to love things a little out of the ordinary such as escape the room games, laser tag, nerf gun wars, etc. My career as a developer compliments my passions and interests, allowing me to better understand the accomplishments of the programmers that have come before me.</p>
-
-      <p>I am currently seeking a fulfilling career where I can continue to learn and grow as a developer, while always striving to improve and grow on my own. To contact me or see my related sites (Github, LinkedIn), please refer to my information in the contact tab, or you can see some of my past projects on the projects tab.</p>
-      
-      <p><small>*Last updated 10/17/17</small></p>
-    </div>
-
-    <div class="col-xs-12 about">
-    <h3>Technologies Known</h3>
-    <p>I pride myself on being a fast learner, with the ability to learn a new language, technology, or framework as need be. I'm currently learning more technologies and frameworks, as of now these are some of the ones I have experience in.</p>
-    <ul>
-      <li><h5><span><b>Languages:</b></span> JavaScript, Python, Ruby</h5></li>
-      <li><h5><span><b>Front End:</b></span> HTML5, CSS3, AngularJS, JQuery, and Boostrap</h5></li>
-      <li><h5><span><b>Back End:</b></span> Express.JS, Node.JS, Flask, Pylot, Django, and Ruby on Rails</h5></li>
-      <li><h5><span><b>Database:</b></span> MySQL, SQL, MongoDB, and Postgres</h5></li>
-      <li><h5><span><b>Other Skills:</b></span> Algorithms, GitHub, Google Sheets and Formulas, Microsoft SQL Server Management Studio, Filezilla, and Deployment</h5></li>
-    </ul>
-  </div>
-    </div>
+    </main>
   </body>
 </html>
