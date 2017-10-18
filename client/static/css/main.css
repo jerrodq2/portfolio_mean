@@ -79,11 +79,37 @@ a{
 .navbar-header{
   margin-bottom: 25px;
 }
-.hamburger{
-  width: 40px;
+.custom-hamburger{
+  display: none;
+  background-color: transparent;
+  border: none;
 }
+.hamburger{
+  width: 60px;
+  background-color: #373737;
+  padding: 10px;
+  border: .5px solid grey;
+  border-radius: 5px;
+}
+.hamburger-navbar{
+  display: none;
+}
+.second-navbar{
+  width: 100%;
+  list-style: none;
+  padding: 10px 0;
+  background-color: #373737;
+}
+.second-navbar li{
+  display: inline-block;
+  width: 24%;
+}
+.current{
+  border-bottom: 5px solid darkgrey;
+}
+
 .navbar{
-  margin-left: 26%
+  margin: 0 auto;
 }
 .nav li{
   padding-left: 20px;
@@ -91,10 +117,7 @@ a{
   margin-right: 10px;
   border: 2px solid white;
   border-radius: 15%;
-}
-.navbar-toggle{
-  float: left;
-  margin-left: 10px;
+  display: inline-block;
 }
 .non_selected{
   background-color: #373737;
@@ -106,6 +129,10 @@ a{
 .about{
   background-color: #373737;
   opacity: 0.9;
+  padding: 15px;
+}
+.about ul{
+  margin-bottom: 50px;
 }
 .about li{
   text-align: center;
@@ -119,7 +146,9 @@ a{
   color: darkgrey;
 }
 .about small{
-  float: right;
+  text-align: right;
+  margin-bottom: 50px;
+  display: block;
 }
 
 .project{
@@ -165,7 +194,15 @@ a{
 
 
 /*RESPONSIVE FOCUSED CSS*/
-@media all and (max-width: 959px){ /* TABLET SIZED SCREENS */
+@media all and (max-width: 1200px) { /* Large Devices, Wide Screens */
+  .project img{
+    width: 450px;
+  }
+}
+
+
+
+@media all and (max-width: 992px){ /* Medium Devices, Desktops */
   .navbar{
     margin-left: 13%;
   }
@@ -175,7 +212,9 @@ a{
   .project img{
     width: 80%;
     margin: auto;
+    display: block;
     float: none;
+    margin-bottom: 100px;
   }
   .alg_img{
     width: 80%;
@@ -183,6 +222,37 @@ a{
     overflow-x: auto;
   }
 }
+
+
+
+@media all and (max-width: 768px){ /* Small Devices, Tablets */
+  .custom-hamburger{
+    display: block;
+  }
+  .custom-navbar{
+    display: none;
+  }
+  .about ul {
+    padding: 0;
+  }
+  .about li{
+    text-align: left;
+  }
+  .alg ul{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .second-list li:last-of-type{
+    margin-bottom: 10px;
+  }
+  .nav li{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
 @media all and (max-width: 480px){ /* SMALL AND EXTRA SMALL */
   .navbar{
     margin-left: 0%;
@@ -196,8 +266,6 @@ a{
   }
   .project img{
     width: 100%;
-    margin: auto;
-    float: none;
   }
   .alg_img{
     width: 100%;
