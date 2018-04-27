@@ -14,6 +14,7 @@
 .algorithm_back {
   height: 100%;
   background-image: url("../images/algo3-min.jpg");
+	back
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,6 +63,11 @@
 .shadow{
   text-shadow: 4px 4px black;
   font-weight: bold;
+}
+.note{
+	text-shadow: 2px 2px black;
+  font-weight: bold;
+	color: #e91e1e;
 }
 .profile{
   width: 300px;
